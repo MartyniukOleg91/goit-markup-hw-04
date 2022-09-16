@@ -221,6 +221,11 @@ ul {
 .text_button {
   margin: 10px 32px;
 }
+
+.benefits_icon{width: 70px; height: 70px ;}
+
+.border_benefits{border: 1px solid #000000;}
+
 /* Кнопки портфоліо */
 .button_portfolio {
   font-family: 'Roboto';
@@ -326,13 +331,24 @@ border: 1px solid #AFB1B8;
   border-radius: 4px;
   width: 170px;
     height: 92px;
+    display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 30px;
 }
 
+.icon-group:last-child{ margin-right: 0;}
+
+.icon_contact{
+width: 16px; height: 12px;
+margin-right: 10px;
+}
+
+.icon:hover, .icon:focus{color:var(--accent-color)}
 .group{display: flex;
 justify-content: center;
-align-items: center;}
+align-items: center;
+align-content: center;}
 
 .our_team .item + .item {
   margin-left: 30px;
@@ -388,6 +404,9 @@ align-items: center;}
 /* Постійні клієнти */
 
 .client{padding-top: 0;
+}
+
+.icon{Width: 106px;  height: 60px;
 }
 
 /* футер */
