@@ -1,5 +1,4 @@
-html{
-
+html {
   box-sizing: border-box;
 }
 
@@ -137,6 +136,13 @@ ul {
 }
 /* формат шрифту посилання телефон */
 
+.icon_contact:hover {
+  fill: var(--accent-color);
+}
+.icon_contact:focus {
+  fill: var(--accent-color);
+}
+
 .contact_nav {
   display: flex;
   margin-left: auto;
@@ -191,9 +197,12 @@ ul {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
-   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/Img\ \(1\).jpg);
-  text-align: center;
-}
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/fon.jpg);
+  background-position: center;
+  text-align: center}
+
+
+
 /* Центральна кнопка */
 .button {
   display: inline-block;
@@ -222,9 +231,20 @@ ul {
   margin: 10px 32px;
 }
 
-.benefits_icon{width: 70px; height: 70px ;}
+.benefits_icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 25px 100px 25px 100px;
+}
 
-.border_benefits{border: 1px solid #000000;}
+.border_benefits {
+  display: flex;
+  background-color: #f5f4fa;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
 
 /* Кнопки портфоліо */
 .button_portfolio {
@@ -326,29 +346,37 @@ ul {
   padding-top: 94px;
 }
 
-.icon-group{
-border: 1px solid #AFB1B8;
+.icon-group {
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   width: 170px;
-    height: 92px;
-    display: flex;
+  height: 92px;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 30px;
 }
 
-.icon-group:last-child{ margin-right: 0;}
-
-.icon_contact{
-width: 16px; height: 12px;
-margin-right: 10px;
+.icon-group:last-child {
+  margin-right: 0;
 }
 
-.icon:hover, .icon:focus{color:var(--accent-color)}
-.group{display: flex;
-justify-content: center;
-align-items: center;
-align-content: center;}
+.icon_contact {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.icon:hover,
+.icon:focus {
+  color: var(--accent-color);
+}
+.group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 
 .our_team .item + .item {
   margin-left: 30px;
@@ -403,10 +431,13 @@ align-content: center;}
 
 /* Постійні клієнти */
 
-.client{padding-top: 0;
+.client {
+  padding-top: 0;
 }
 
-.icon{Width: 106px;  height: 60px;
+.icon {
+  width: 106px;
+  height: 60px;
 }
 
 /* футер */
