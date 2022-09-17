@@ -197,11 +197,11 @@ ul {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/fon.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../image/fon.jpg);
   background-position: center;
-  text-align: center}
-
-
+  text-align: center;
+}
 
 /* Центральна кнопка */
 .button {
@@ -360,6 +360,8 @@ ul {
 .icon-group:last-child {
   margin-right: 0;
 }
+
+.icon-group .icon{fill: #AFB1B8;}
 
 .icon_contact {
   width: 16px;
