@@ -400,6 +400,35 @@ ul {
   color: var(--text-color);
 }
 
+.social{display: flex;
+justify-content: center;
+align-items: center;}
+
+.circle{ width: 44px; height: 44px; border: 2px solid rgba(255, 255, 255, 0);
+  border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;}
+
+.circle:hover{background-color: var(--accent-color);
+  fill: var(--color-light);
+}
+
+.social_icon{width: 20px; height: 20px;
+fill: #AFB1B8;
+}
+.social_icon:hover{fill: var(--color-light);}
+
+.social_link{width: 44px; height: 44px;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+
+
+
+
 /*  стилізація назв проектів*/
 .project {
   font-size: 18px;
