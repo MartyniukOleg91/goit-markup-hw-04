@@ -335,11 +335,13 @@ ul {
 
 .teams {
   padding-top: 0;
+  
 }
 
 .team {
   display: flex;
   justify-content: center;
+  padding-bottom: 94px;
 }
 .our_team {
   background-color: #f5f4fa;
@@ -398,32 +400,30 @@ ul {
   line-height: 1.19;
   text-align: center;
   color: var(--text-color);
+  margin-bottom: 16px ;
 }
 
 .social{display: flex;
 justify-content: center;
-align-items: center;}
+align-items: center;
+}
 
-.circle{ width: 44px; height: 44px; border: 2px solid rgba(255, 255, 255, 0);
+
+.social_icon{width: 20px; height: 20px;
+}
+.social_link{
+  width: 44px; height: 44px; border: 2px solid rgba(255, 255, 255, 0);
   border-radius: 50%;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-right: 10px;}
+margin-right: 10px;
+color: #AFB1B8;;
+fill: currentColor;
+ }
 
-.circle:hover{background-color: var(--accent-color);
-  fill: var(--color-light);
-}
-
-.social_icon{width: 20px; height: 20px;
-fill: #AFB1B8;
-}
-.social_icon:hover{fill: var(--color-light);}
-
-.social_link{width: 44px; height: 44px;
-display: flex;
-justify-content: center;
-align-items: center;}
+.social_link:hover, .social_link:focus{fill: var(--color-light);
+background-color: var(--accent-color);}
 
 
 
